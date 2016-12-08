@@ -170,8 +170,25 @@ The most basic component every framework has is the container. All of your conte
 ```
 
 #### Grids
+These are a super powerful component when used correctly. On large screens they appear as a grid, and on smaller screens they turn into a list.
 
+Using skeleton, we can split our page up intelligently like so
+```html
+<div class="container">
+  <div class="row">
+    <div class="one-third column">1/3</div>
+    <div class="two-thirds column">2/3</div>
+  </div>
+  <div class="row">
+    <div class="one-half column">1/2</div>
+    <div class="one-half column">1/2</div>
+</div>
+```
 
+They can also be nested.
+
+#### Other components
+All the frameworks include loads of other nice looking and responsive components. For example, buttons, tables and forms. One particular powerful example is the responsive menu in bootstrap (see example at https://getbootstrap.com/examples/navbar/ ) which looks like a normal menu on large screens, but turns into a collapsable menu on small screens. 
 
 ## General strategy
 Everything else, google it :)
