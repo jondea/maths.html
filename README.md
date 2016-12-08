@@ -5,10 +5,13 @@ As a student at Manchester you have two websites.
 ### Maths page
 http://www.maths.manchester.ac.uk/~username
 
-First ssh into your vummath account
+Access your vummath account somehow
 ```bash
 ssh username@vummath.maths.manchester.ac.uk
 ```
+and put any files in `public_html`.
+
+You can use ftp or scp to move files across.
 
 Note: your landing page must be called `index.html`.
 
@@ -20,7 +23,8 @@ See http://personalpages.manchester.ac.uk/personalwebpages.html for more informa
 
 Note: your landing page must be called `default.htm`.
 
-## Basic html
+## Getting started
+All you need to make a website is a browser and an editor. First make a folder to store eveything in to keep it neat and tidy. I've called mine personal_pages.
 
 Make a file called `index.html`
 ```html
@@ -98,7 +102,7 @@ body{
 
 #profile{
   height:100px;
-  width:50px;
+  width:100px;
 }
 ```
 
@@ -119,6 +123,9 @@ p, #profile{}
 ```
 
 Refers to either a p tag or something with an id of profile.
+
+for more on selectors, including some powerful tools called pseudo-selectors see
+http://www.w3schools.com/cssref/css_selectors.asp
 
 ## Useful tools
 
